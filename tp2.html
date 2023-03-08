@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Devine le nombre</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src_tp2/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Devine le nombre entre 1 et 100</h1>
+        <label for="guess">Entrez un nombre : </label>
+        <input type="number" id="guess">
+        <div id="difficulties">
+            <label>
+                <input type="radio" name="difficulty" value="easy" checked> Facile (10 tentatives)
+            </label>
+            <label>
+                <input type="radio" name="difficulty" value="medium"> Moyen (7 tentatives)
+            </label>
+            <label>
+                <input type="radio" name="difficulty" value="hard"> Difficile (5 tentatives)
+            </label>
+        </div>
+        <button id="guessButton">Devine!</button>
+        <p id="message"></p>
+        <script src="src_tp2/script.js"></script>
+    </div>
+</body>
+
+</html>

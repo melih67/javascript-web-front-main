@@ -1,0 +1,45 @@
+button {
+    background-color: #4CAF50;
+    /* couleur de fond */
+    color: white;
+    /* couleur de texte */
+    border: none;
+    /* pas de bordure */
+    padding: 12px 24px;
+    /* taille de la police */
+    text-align: center;
+    /* centrage du texte */
+    text-decoration: none;
+    /* pas de soulignement */
+    display: inline-block;
+    /* afficher en ligne */
+    font-size: 16px;
+    /* taille de la police */
+    margin: 4px 2px;
+    /* marge entre les boutons */
+    cursor: pointer;
+    /* afficher une main sur le curseur */
+    border-radius: 8px;
+    /* bord arrondi */
+}
+
+button:hover {
+    background-color: #3e8e41;
+    /* couleur de fond lors du survol */
+}
+
+button:active {
+    background-color: #4CAF50;
+    /* couleur de fond lors de l'activation */
+    box-shadow: 0 5px #666;
+    /* ombre sur le clic */
+    transform: translateY(4px);
+    /* effet de basculement sur le clic */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
